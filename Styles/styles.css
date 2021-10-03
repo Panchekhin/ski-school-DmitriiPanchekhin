@@ -1,0 +1,52 @@
+.btn-top {
+  font-size: 24px;
+  color: #060D10;
+}
+.main-logo {
+  font-size: 31px;
+  color: #060D10;
+}
+
+.btn-phone {
+  font-size: 28px;
+  color: #060D10;
+}
+
+h1 {
+  font-size: 60px;
+  color: #7a7a7a;
+}
+
+.main-content {
+  font-size: 32px;
+  color: #7a7a7a;
+}
+
+h2 {
+  font-size: 48px;
+  color: #060D10;
+}
+
+.advantages-heading {
+  font-size: 32px;
+  color: #060D10;
+}
+
+.advantages-text {
+  font-size: 26px;
+  color: #060D10;
+}
+.btm-bottom {
+  font-size: 36px;
+  color: #060D10;
+}
+
+.btm-footer {
+  font-size: 20px;
+  color: #7a7a7a;
+}
+
+.copyright {
+  font-size: 18px;
+  color: #7a7a7a;
+}
