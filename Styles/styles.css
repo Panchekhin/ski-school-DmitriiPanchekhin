@@ -29,7 +29,11 @@
 }
 
 /* body */
-.btn-top {
+#body {
+  background-color: rgb(177, 176, 176);
+}
+
+.btm-top {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #060D10;
@@ -39,59 +43,63 @@
 
 }
 
-.btn-phone {
-  font-family: Montserrat;
+.btm-phone {
+  font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   color: #060D10;
 }
 
 /* main */
 h1 {
-  font-family: Oswald;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
-  color: #7a7a7a;
+  color: #ffffff;
 }
 
 .main-content {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
-  color: #7a7a7a;
+  color: #ffffff;
 }
 
 /* section */
 h2 {
-  font-family: Oswald;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
   font-size: 48px;
   color: #060D10;
 }
 
 h3 {
-  font-family: Oswald;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
   font-size: 32px;
   color: #060D10;
 }
 
 .advantages-text {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-size: 26px;
   color: #060D10;
 }
 
 .btm-bottom {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   color: #060D10;
 }
 
 /* footer */
 .btm-footer {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color: #7a7a7a;
+  color: #ffffff;
 }
 
-.copyright {font-family: Montserrat;
+.copyright {
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: #7a7a7a;
+  color: #ffffff;
 }
