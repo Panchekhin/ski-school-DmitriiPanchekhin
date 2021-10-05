@@ -1,52 +1,97 @@
+/* montserrat-500 - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v18-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v18-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v18-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v18-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* oswald-500 - cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/oswald-v40-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v40-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* body */
 .btn-top {
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #060D10;
 }
+
 .main-logo {
-  font-size: 31px;
-  color: #060D10;
+
 }
 
 .btn-phone {
+  font-family: Montserrat;
   font-size: 28px;
   color: #060D10;
 }
 
+/* main */
 h1 {
+  font-family: Oswald;
   font-size: 60px;
   color: #7a7a7a;
 }
 
 .main-content {
+  font-family: Montserrat;
   font-size: 32px;
   color: #7a7a7a;
 }
 
+/* section */
 h2 {
+  font-family: Oswald;
   font-size: 48px;
   color: #060D10;
 }
 
-.advantages-heading {
+h3 {
+  font-family: Oswald;
   font-size: 32px;
   color: #060D10;
 }
 
 .advantages-text {
+  font-family: Montserrat;
+  font-style: normal;
   font-size: 26px;
   color: #060D10;
 }
+
 .btm-bottom {
+  font-family: Montserrat;
   font-size: 36px;
   color: #060D10;
 }
 
+/* footer */
 .btm-footer {
+  font-family: Montserrat;
   font-size: 20px;
   color: #7a7a7a;
 }
 
-.copyright {
+.copyright {font-family: Montserrat;
   font-size: 18px;
   color: #7a7a7a;
 }
