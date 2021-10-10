@@ -33,45 +33,64 @@
   box-sizing: border-box;
 }
 #body {
+  width: 100%;
   background-color: rgb(238, 238, 238);
 }
 
-.box-top {
-  Width: 100%;
-  background-color: #66D1FF;
+.conteiner-top {
   display: flex;
+  margin: 0 auto;
+  height: 112px;
   align-items: center;
+  background-color: #66D1FF;
   justify-content: space-between;
 }
 
 .btm-text {
+  padding-left: 122px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #060D10;
 }
 
+.img-logo {
+  display: flex;
+  align-items: center;
+}
+
 .btm-phone {
+  padding-right: 81px;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   color: #060D10;
-  margin: 39px,81px,39px,1103px;
 }
 
 /* main */
+.wrap {
+  padding: 230px 0;
+  background-image: url(../images/promo.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(6, 13, 16, .25);
+}
+
+.conteiner {
+  width: 1440px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+}
+
 h1 {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
-  color: #ffffff;
 }
 
-.main-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.info {
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
-  color: #ffffff;
 }
 
 /* section */
