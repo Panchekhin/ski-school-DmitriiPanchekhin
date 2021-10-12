@@ -63,21 +63,38 @@
 }
 
 .btn-phone {
-  padding-right: 81px;
+  /* padding-right: 81px; */
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   color: #060D10;
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 122px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  padding: 8px 41px;
+  /* border-radius: 4px;
+  background-color: rgba (0,0,0,0);
+  border: 2px;
+  border-style: solid;
+  solid #ffffff; */
+  cursor: pointer;
 }
 
 /* Шапка сайта */
 .header {
-  padding: 40px 0;
+  padding: 31px 0;
   background-color: #66D1FF;
 }
 
 .header-wrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* main */
@@ -87,7 +104,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .promo-bg-fade {
@@ -95,25 +111,30 @@
   background-color: rgba(6, 13, 16, .25);
 }
 
-h1 {
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  font-size: 60px;
-}
-
 .promo-info {
   margin-left: 50px;
   margin-right: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #060D10;
 }
 
 /* section */
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #060D10;
+}
+
 h2 {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
-  color: #060D10;
+  color: rgba(6, 13, 16, 1);
 }
 
 h3 {
@@ -121,6 +142,17 @@ h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 32px;
   color: #060D10;
+}
+
+
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  width: 33.33%;
 }
 
 .advantages-text {
