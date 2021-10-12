@@ -28,29 +28,33 @@
        url('../fonts/oswald-v40-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* body */
+/* Общие стили */
 * {
   box-sizing: border-box;
 }
-#body {
-  width: 100%;
-  background-color: rgb(238, 238, 238);
-}
 
-.conteiner-top {
-  display: flex;
+.container {
   margin: 0 auto;
-  height: 112px;
-  align-items: center;
-  background-color: #66D1FF;
-  justify-content: space-between;
+  width: 1280px;
 }
 
-.btm-text {
-  padding-left: 122px;
+.btn-text {
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
+  padding-left: 122px;
   font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  padding: 8px 41px;
+  border-radius: 4px;
+  background-color: #ffffff;
   color: #060D10;
+  border: 2 px
+  solid #ffffff;
+  cursor: pointer;
 }
 
 .img-logo {
@@ -58,28 +62,37 @@
   align-items: center;
 }
 
-.btm-phone {
+.btn-phone {
   padding-right: 81px;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   color: #060D10;
 }
 
+/* Шапка сайта */
+.header {
+  padding: 40px 0;
+  background-color: #66D1FF;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* main */
-.wrap {
-  padding: 230px 0;
+.promo {
+  text-align: center;
   background-image: url(../images/promo.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: rgba(6, 13, 16, .25);
+
 }
 
-.conteiner {
-  width: 1440px;
-  margin: 0 auto;
-  color: #ffffff;
-  text-align: center;
+.promo-bg-fade {
+  padding: 230px 0;
+  background-color: rgba(6, 13, 16, .25);
 }
 
 h1 {
@@ -88,7 +101,9 @@ h1 {
   font-size: 60px;
 }
 
-.info {
+.promo-info {
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
 }
@@ -115,14 +130,14 @@ h3 {
   color: #060D10;
 }
 
-.btm-bottom {
+.btn-bottom {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   color: #060D10;
 }
 
 /* footer */
-.btm-footer {
+.btn-footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: #ffffff;
