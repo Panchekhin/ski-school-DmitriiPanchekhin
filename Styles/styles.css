@@ -63,27 +63,20 @@
 }
 
 .btn-phone {
-  /* padding-right: 81px; */
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
   color: #060D10;
   display: inline-block;
   align-items: center;
   text-decoration: none;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
   padding-left: 122px;
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
   padding: 8px 41px;
-  /* border-radius: 4px;
-  background-color: rgba (0,0,0,0);
-  border: 2px;
-  border-style: solid;
-  solid #ffffff; */
   cursor: pointer;
 }
+
 
 /* Шапка сайта */
 .header {
@@ -96,6 +89,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 
 /* main */
 .promo {
@@ -120,6 +114,7 @@
   text-shadow: 1px 1px 2px #060D10;
 }
 
+
 /* section */
 
 h1 {
@@ -135,8 +130,17 @@ h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
   color: rgba(6, 13, 16, 1);
+  padding-top: 0;
+  text-align: center;
+  margin-top: 170px;
+  margin-bottom: 100px;
 }
 
+.two-title {
+  padding-top: 170px;
+  padding-bottom: 60px;
+  margin: 0;
+}
 h3 {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -144,15 +148,22 @@ h3 {
   color: #060D10;
 }
 
-
-
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 100px 81px 170px 81px;
 }
 
 .advantages-item {
   width: 33.33%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 35px 15px;
 }
 
 .advantages-text {
@@ -162,11 +173,23 @@ h3 {
   color: #060D10;
 }
 
+/* thumbs */
+
 .btn-bottom {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   color: #060D10;
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 122px;
+  font-weight: 500;
+  padding: 20px 107px 22px 108px;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 4px;
 }
+
 
 /* footer */
 .btn-footer {
