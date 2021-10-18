@@ -38,6 +38,11 @@
   width: 1280px;
 }
 
+main {
+  background-color: rgba(102, 209, 255, .1);
+  /* background-image: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%); */
+}
+
 .btn-text {
   display: inline-block;
   align-items: center;
@@ -81,7 +86,7 @@
 /* Шапка сайта */
 .header {
   padding: 31px 0;
-  background-color: #66D1FF;
+  background-color: #66d1ff;
 }
 
 .header-wrap {
@@ -115,7 +120,13 @@
 }
 
 
-/* section */
+/* advantages */
+.advantages {
+  padding: 170px 0;
+  background-color:rgba(102, 209, 255, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
 h1 {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -130,7 +141,7 @@ h2 {
   font-size: 48px;
   color: rgba(6, 13, 16, 1);
   text-align: center;
-  margin-top: 170px;
+  margin-top: 0;
   margin-bottom: 100px;
 }
 
@@ -151,7 +162,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0;
-  margin: 100px 81px 170px 81px;
+  margin: 0;
 }
 
 .advantages-item {
@@ -172,18 +183,20 @@ h3 {
 }
 
 /* thumbs */
- .thumbs-content {
+.thumbs-content {
   text-align: center;
- }
+  padding-bottom: 180px;
+  background-image: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+}
 
- .visual-row {
+.visual-row {
    display: flex;
    justify-content: space-around;
    padding-top: 130px;
    list-style-type: none;
  }
 
-  .about-pic {
+.about-pic {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
  }
 
@@ -204,6 +217,11 @@ h3 {
 
 
 /* footer */
+.footer {
+  background-color: #060D10;
+  display: flex;
+}
+
 .btn-footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
