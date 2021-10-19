@@ -142,7 +142,7 @@ h2 {
   color: rgba(6, 13, 16, 1);
   text-align: center;
   margin-top: 0;
-  margin-bottom: 100px;
+  margin-bottom: 67px;
 }
 
 .two-title {
@@ -155,6 +155,7 @@ h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 32px;
   color: #060D10;
+  margin-bottom: 25px;
 }
 
 .advantages-list {
@@ -162,7 +163,12 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0;
-  margin: 0;
+
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .advantages-item {
@@ -194,6 +200,7 @@ h3 {
    justify-content: space-around;
    padding-top: 130px;
    list-style-type: none;
+   margin: 0;
  }
 
 .about-pic {
@@ -215,18 +222,52 @@ h3 {
   border-radius: 4px;
 }
 
+.visual-row {
+  padding-left: 0;
+}
+
 
 /* footer */
 .footer {
   background-color: #060D10;
+}
+
+.footer-wrap {
   display: flex;
+  align-items: center;
+  padding-left: 50px;
 }
 
 .btn-footer {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: #ffffff;
+  text-decoration: none;
 }
+
+.social-icons {
+    display: flex;
+    padding: 35px 623px 35px 50px;
+    margin: 0;
+}
+
+.social-item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.social-link {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  justify-content: space-between;
+}
+
+.social-text {
+  font-size: 1px;
+  opacity: 0;
+}
+
 
 .copyright {
   font-family: 'Montserrat', sans-serif;
